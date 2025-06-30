@@ -98,7 +98,7 @@ async def account_login(bot: Client, m: Message):
     for data in response:
         batch=(data["name"])
         #batchId=(data["_id"])
-        aa=f"```{data['id']}```  :  ```{data['_id']}\n```"
+        aa=f"```{data['name']}```  :  ```{data['_id']}\n```"
         await m.reply_text(aa)
     #time.sleep(2)
     editable1= await m.reply_text("**Now send the Batch ID to Download**")
