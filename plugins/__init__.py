@@ -14,7 +14,7 @@ async def Start_msg(bot: stark, m: Message):
         m.chat.id,
         photo="https://i.postimg.cc/SNRLSgp3/IMG-20250606-171049-024.webp",
         caption=(
-            "**Hi i am All in One Extractor Bot**.\n"
+            "**Hello i am made by @tg_mr_x8**.\n"
             "Press **/pw** for **Physics Wallah**..\n\n"
             "Press **/e1** for **E1 Coaching App**..\n\n"
             "Press **/vidya** for **Vidya Bihar App**..\n\n"
