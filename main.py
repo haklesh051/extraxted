@@ -66,5 +66,5 @@ if __name__ == "__main__" :
         LOGGER.info(f"<--- @{bot_info.username} Started (c) STARKBOT --->")
         await idle()
     
-    asyncio.get_event_loop().run_until_complete(main())
+    asyncio.run(main())
     LOGGER.info(f"<---Bot Stopped-->")
