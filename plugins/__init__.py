@@ -12,7 +12,7 @@ import sys
 async def Start_msg(bot: stark, m: Message):
     await bot.send_photo(
         m.chat.id,
-        photo="https://i.postimg.cc/SNRLSgp3/IMG-20250606-171049-024.webp",
+        photo="https://i.postimg.cc/pXp1VL6y/Generate-a-hacker-programmer-who-sits-in-a-hood.jpg",
         caption=(
             "**Hello i am made by @tg_mr_x8**.\n"
             "Press **/pw** for **Physics Wallah**..\n\n"
